@@ -84,13 +84,7 @@ body {
     bottom: 0;
     left: 0;
     /* background-color: #ccc; */
-    /* background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0)); */
-    /* background: -webkit-linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0)); */
-    background: -moz-linear-gradient(black, transparent); /* FF 3.6+ */  
-    background: -ms-linear-gradient(black, transparent); /* IE10 */  
-    background: -webkit-linear-gradient(black, transparent); /* Safari 5.1+, Chrome 10+ */  
-    background: -o-linear-gradient(black, transparent); /* Opera 11.10 */  
-    background: linear-gradient(black, transparent); /* the standard */  
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0));
     z-index: 1;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
