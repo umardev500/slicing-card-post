@@ -85,8 +85,8 @@ body {
     left: 0;
     /* background-color: #ccc; */
     background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0));
-    background: -webkit-linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0));
-    z-index: 1;
+    /* background: -webkit-linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0)); */
+    z-index: 1050;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
