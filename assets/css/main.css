@@ -1,3 +1,21 @@
+.foo {
+    width: 100%;
+    height: 250px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.foo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0));
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0));
+}
+
 
 * {
     margin: 0;
@@ -67,6 +85,7 @@ body {
 }
 
 .card > .body .thumb {
+    position: relative;
     display: flex;
     width: 100%;
     height: 220px;
@@ -78,7 +97,7 @@ body {
 }
 
 .card > .body .thumb::before {
-    content: '';
+    contentcontent: '';
     position: absolute;
     top: 0;
     left: 0;
