@@ -3,6 +3,7 @@
     height: 250px;
     background-color: #ccc;
     position: relative;
+    background-image: url("../images/thumbs/1.jpg");
 }
 
 .foo::after {
