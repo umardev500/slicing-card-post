@@ -77,7 +77,7 @@ body {
 }
 
 .card > .body .thumb::after {
-    content: "";
+    content: "h";
     position: absolute;
     top: 0;
     right: 0;
