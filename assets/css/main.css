@@ -145,12 +145,19 @@ body {
 }
 
 .children-card > .thumb {
-    width: 80px;
-    height: 60px;
+    width: 120px;
+    height: 80px;
     border-radius: 5px;
     object-fit: cover;
     object-position: center top;
     margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+    .children-card > .thumb {
+        width: 80px;
+        height: 60px;
+    }
 }
 
 .children-card > .desc .title {
